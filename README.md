@@ -1,0 +1,1 @@
+ python main.py gunicorn --workers 2 -k gevent app:app
